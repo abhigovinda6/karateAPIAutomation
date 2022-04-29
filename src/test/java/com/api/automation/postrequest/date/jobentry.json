@@ -1,0 +1,23 @@
+{
+        "jobId": 8,
+        "jobTitle": "Business Analyst Senior",
+        "jobDescription": "To develop andriod application",
+        "experience": [
+            "Google",
+            "Apple",
+            "Windows",
+            "MAC OS"
+            
+        ],
+        "project": [
+            {
+                "projectName": "Movie App",
+                "technology": [
+                    "Kotlin",
+                    "SQL Lite",
+                    "Angular",
+                    "Cypress"
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,94 @@
+# Created at 2022-04-25T18:01:41.236
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+# Created at 2022-04-25T18:01:42.164
+Unexpected IOException with stream: ---------------------------------------------------------
+feature: classpath:com/api/automation/tags/deleteJobEntry.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.3730
+---------------------------------------------------------
+
+
+# Created at 2022-04-25T18:01:42.178
+Unexpected IOException with stream: 
+
+
+# Created at 2022-04-25T18:01:42.185
+Unexpected IOException with stream: 18:01:42.178 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 32 of 34 (2 remaining) classpath:com/api/automation/tags/deleteJobEntry.feature
+
+
+# Created at 2022-04-25T18:01:42.619
+Unexpected IOException with stream: ---------------------------------------------------------
+feature: classpath:com/api/automation/tags/queryParameter.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.4919
+---------------------------------------------------------
+
+
+# Created at 2022-04-25T18:01:42.619
+Unexpected IOException with stream: 
+
+
+# Created at 2022-04-25T18:01:42.619
+Unexpected IOException with stream: 18:01:42.619 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 33 of 34 (1 remaining) classpath:com/api/automation/tags/queryParameter.feature
+
+
+# Created at 2022-04-25T18:01:43.105
+Unexpected IOException with stream: ---------------------------------------------------------
+feature: classpath:com/api/automation/tags/updateJobDescriptionPatch.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.7064
+---------------------------------------------------------
+
+
+# Created at 2022-04-25T18:01:43.105
+Unexpected IOException with stream: 
+
+
+# Created at 2022-04-25T18:01:43.105
+Unexpected IOException with stream: 18:01:43.105 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 34 of 34 (0 remaining) classpath:com/api/automation/tags/updateJobDescriptionPatch.feature
+
+
+# Created at 2022-04-25T18:01:43.172
+Unexpected IOException with stream: Karate version: 1.1.0
+
+
+# Created at 2022-04-25T18:01:43.173
+Unexpected IOException with stream: ======================================================
+
+
+# Created at 2022-04-25T18:01:43.174
+Unexpected IOException with stream: elapsed:   7.88 | threads:    6 | thread time: 6.57 
+
+
+# Created at 2022-04-25T18:01:43.176
+Unexpected IOException with stream: features:     3 | skipped:   31 | efficiency: 0.14
+
+
+# Created at 2022-04-25T18:01:43.178
+Unexpected IOException with stream: scenarios:    5 | passed:     5 | failed: 0
+
+
+# Created at 2022-04-25T18:01:43.179
+Unexpected IOException with stream: ======================================================
+
+
+# Created at 2022-04-25T18:01:43.379
+Unexpected IOException with stream: 
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///C:/Users/abhis/Downloads/karateframework/karateframework/target/karate-reports/karate-summary.html
+===================================================================
+
+
+
+# Created at 2022-04-25T18:01:43.418
+Unexpected IOException: 6,1,com.api.automation.ParallelRunnerWithTags,executeKaratetest,null,null,null
+
+
+# Created at 2022-04-25T18:01:43.436
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.api.automation.ParallelRunnerWithTags,null,null,null
+
+

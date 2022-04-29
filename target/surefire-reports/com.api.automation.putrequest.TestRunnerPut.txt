@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.api.automation.putrequest.TestRunnerPut
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.712 s <<< FAILURE! - in com.api.automation.putrequest.TestRunnerPut
+runTest[1][2]  Time elapsed: 0.218 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 404, expected: 200, response time in milliseconds: 11, url: http://localhost:9897/normal/webapi/update, response: 
+{"message":"Failed to update Entry [jobId=124, jobTitle=QA Analyst Level 3, jobDescription=To develop automation framework for andriod application and web app, experience=[Ljava.lang.Object;@279266b1, project=[[projectName=Movie App, technology=[Kotlin, SQL Lite, Angular]], [projectName=IOS App, technology=[Kotlin, SQL Lite, Swift]]]]"}
+classpath:com/api/automation/putrequest/updateJobEntry.feature:96
+

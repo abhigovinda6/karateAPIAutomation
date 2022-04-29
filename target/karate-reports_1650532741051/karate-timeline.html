@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"com\/api\/automation\/getrequest\/getRequest2[1:8]","start":1650530878724,"end":1650530879996,"title":"com\/api\/automation\/getrequest\/getRequest2[1:8] 14:17:58.724-14:17:59.996 To get all the data from application in JSON format"},{"id":2,"group":1,"content":"com\/api\/automation\/getrequest\/getRequest2[2:14]","start":1650530880096,"end":1650530880140,"title":"com\/api\/automation\/getrequest\/getRequest2[2:14] 14:18:00.096-14:18:00.140 To get all the data from application in JSON format using path variable"},{"id":3,"group":1,"content":"com\/api\/automation\/getrequest\/getRequest2[4:29]","start":1650530880158,"end":1650530880199,"title":"com\/api\/automation\/getrequest\/getRequest2[4:29] 14:18:00.158-14:18:00.199 To get all the data from application in JSON format using header keyword"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

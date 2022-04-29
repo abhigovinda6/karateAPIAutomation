@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.api.automation.getrequest.TestGetRunnerFile" time="0.615" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\abhis\Downloads\karateframework\karateframework\target\test-classes;C:\Users\abhis\Downloads\karateframework\karateframework\target\classes;C:\Users\abhis\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\abhis\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\abhis\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\abhis\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\abhis\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\abhis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\abhis\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\abhis\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\abhis\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\abhis\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\abhis\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\abhis\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\abhis\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\abhis\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\abhis\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\abhis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\abhis\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\abhis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\abhis\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\abhis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\abhis\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\abhis\AppData\Local\Temp\surefire6349391075841125618\surefirebooter2755357234361314738.jar C:\Users\abhis\AppData\Local\Temp\surefire6349391075841125618 2022-04-21T13-41-17_460-jvmRun1 surefire5276735558116623514tmp surefire_05445232225478604270tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\abhis\Downloads\karateframework\karateframework\target\test-classes;C:\Users\abhis\Downloads\karateframework\karateframework\target\classes;C:\Users\abhis\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\abhis\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\abhis\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\abhis\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\abhis\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\abhis\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\abhis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\abhis\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\abhis\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\abhis\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\abhis\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\abhis\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\abhis\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\abhis\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\abhis\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\abhis\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\abhis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\abhis\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\abhis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\abhis\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\abhis\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\abhis\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abhis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\abhis\Downloads\karateframework\karateframework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhis\AppData\Local\Temp\surefire6349391075841125618\surefirebooter2755357234361314738.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="abhis"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\abhis\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abhis\AppData\Local\Temp\"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="C:\Users\abhis\Downloads\karateframework\karateframework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-16/bin/server;C:/Program Files/Java/jdk-16/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-16\bin;C:\Users\abhis\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\Users\abhis\AppData\Local\Android\Sdk\tools\bin;C:\Users\abhis\AppData\Local\Android\Sdk\tools;C:\Users\abhis\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\abhis\AppData\Local\Microsoft\WindowsApps;C:\Users\abhis\AppData\Roaming\npm;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runTest[1][1]" classname="com.api.automation.getrequest.TestGetRunnerFile" time="0.15">
+    <failure message="match failed: EQUALS&#10;  $ | not equal | actual array length is not equal to expected - 4:1 (LIST:LIST)&#10;  [{&quot;jobId&quot;:1,&quot;jobTitle&quot;:&quot;Software Engg&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]},{&quot;jobId&quot;:95,&quot;jobTitle&quot;:&quot;Software Engg 3&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application and IOS application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]},{&quot;jobId&quot;:17,&quot;jobTitle&quot;:&quot;Software Engg 3&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]},{&quot;jobId&quot;:23,&quot;jobTitle&quot;:&quot;Software Engg 3&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]}]&#10;  [{&quot;jobId&quot;:1,&quot;jobTitle&quot;:&quot;Software Engg&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]}]&#10;&#10;&#10;classpath:com/api/automation/getrequest/validateUsingFile.feature:17" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+match failed: EQUALS
+  $ | not equal | actual array length is not equal to expected - 4:1 (LIST:LIST)
+  [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":95,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":17,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+  [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+
+classpath:com/api/automation/getrequest/validateUsingFile.feature:17
+</failure>
+    <system-out><![CDATA[13:41:32.967 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:41:32.982 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:41:32.988 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9897/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9897
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:41:33.006 [main] DEBUG com.intuit.karate - response time in milliseconds: 15
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 21 Apr 2022 08:11:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":95,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":17,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+13:41:33.011 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+13:41:33.014 [main] ERROR com.intuit.karate - classpath:com/api/automation/getrequest/validateUsingFile.feature:17
+And match response == expectedResponse
+match failed: EQUALS
+  $ | not equal | actual array length is not equal to expected - 4:1 (LIST:LIST)
+  [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":95,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":17,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+  [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+
+classpath:com/api/automation/getrequest/validateUsingFile.feature:17
+]]></system-out>
+  </testcase>
+  <testcase name="runTest[1][2]" classname="com.api.automation.getrequest.TestGetRunnerFile" time="0.464">
+    <failure message="match failed: EQUALS&#10;  / | not equal | match failed for name: &apos;List&apos; (XML:XML)&#10;  &lt;List&gt;&lt;item&gt;&lt;jobId&gt;1&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&lt;item&gt;&lt;jobId&gt;95&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg 3&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application and IOS application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&lt;item&gt;&lt;jobId&gt;17&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg 3&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&lt;item&gt;&lt;jobId&gt;23&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg 3&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&lt;/List&gt;&#10;  &lt;List&gt;&lt;item&gt;&lt;jobId&gt;1&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&lt;/List&gt;&#10;&#10;    /List | not equal | match failed for name: &apos;item&apos; (MAP:MAP)&#10;    &lt;item&gt;&lt;jobId&gt;1&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&#10;    &lt;item&gt;&lt;jobId&gt;1&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&#10;&#10;      /List/item | data types don&apos;t match (LIST:MAP)&#10;      [{&quot;jobId&quot;:&quot;1&quot;,&quot;jobTitle&quot;:&quot;Software Engg&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:{&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;]},&quot;project&quot;:{&quot;project&quot;:{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:{&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}}}},{&quot;jobId&quot;:&quot;95&quot;,&quot;jobTitle&quot;:&quot;Software Engg 3&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application and IOS application&quot;,&quot;experience&quot;:{&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;]},&quot;project&quot;:{&quot;project&quot;:{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:{&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}}}},{&quot;jobId&quot;:&quot;17&quot;,&quot;jobTitle&quot;:&quot;Software Engg 3&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:{&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;]},&quot;project&quot;:{&quot;project&quot;:{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:{&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}}}},{&quot;jobId&quot;:&quot;23&quot;,&quot;jobTitle&quot;:&quot;Software Engg 3&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:{&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;]},&quot;project&quot;:{&quot;project&quot;:{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:{&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}}}}]&#10;      &lt;jobId&gt;1&lt;/jobId&gt;&#10;&#10;classpath:com/api/automation/getrequest/validateUsingFile.feature:29" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+match failed: EQUALS
+  / | not equal | match failed for name: 'List' (XML:XML)
+  <List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>95</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application and IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+  <List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+    /List | not equal | match failed for name: 'item' (MAP:MAP)
+    <item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+    <item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+
+      /List/item | data types don't match (LIST:MAP)
+      [{"jobId":"1","jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"95","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"17","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"23","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}}]
+      <jobId>1</jobId>
+
+classpath:com/api/automation/getrequest/validateUsingFile.feature:29
+]]></failure>
+    <system-out><![CDATA[13:41:33.038 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:41:33.041 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9897/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9897
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:41:33.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 55
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 21 Apr 2022 08:11:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>95</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application and IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+13:41:33.110 [main] INFO  com.intuit.karate - [print] <List>
+  <item>
+    <jobId>1</jobId>
+    <jobTitle>Software Engg</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Google</experience>
+      <experience>Apple</experience>
+      <experience>Mobile Iron</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Movie App</projectName>
+        <technology>
+          <technology>Kotlin</technology>
+          <technology>SQL Lite</technology>
+          <technology>Gradle</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+</List>
+ 
+13:41:33.307 [main] ERROR com.intuit.karate - classpath:com/api/automation/getrequest/validateUsingFile.feature:29
+And match response == expectedResponse
+match failed: EQUALS
+  / | not equal | match failed for name: 'List' (XML:XML)
+  <List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>95</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application and IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+  <List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+    /List | not equal | match failed for name: 'item' (MAP:MAP)
+    <item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+    <item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+
+      /List/item | data types don't match (LIST:MAP)
+      [{"jobId":"1","jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"95","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"17","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"23","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}}]
+      <jobId>1</jobId>
+
+classpath:com/api/automation/getrequest/validateUsingFile.feature:29
+---------------------------------------------------------
+feature: classpath:com/api/automation/getrequest/validateUsingFile.feature
+scenarios:  2 | passed:  0 | failed:  2 | time: 0.2959
+---------------------------------------------------------
+
+Karate version: 1.1.0
+======================================================
+elapsed:   0.50 | threads:    1 | thread time: 0.30 
+features:     1 | skipped:    0 | efficiency: 0.59
+scenarios:    2 | passed:     0 | failed: 2
+======================================================
+>>> failed features:
+match failed: EQUALS
+  $ | not equal | actual array length is not equal to expected - 4:1 (LIST:LIST)
+  [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":95,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":17,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+  [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+
+classpath:com/api/automation/getrequest/validateUsingFile.feature:17
+match failed: EQUALS
+  / | not equal | match failed for name: 'List' (XML:XML)
+  <List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>95</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application and IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Software Engg 3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+  <List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+    /List | not equal | match failed for name: 'item' (MAP:MAP)
+    <item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+    <item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+
+      /List/item | data types don't match (LIST:MAP)
+      [{"jobId":"1","jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"95","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application and IOS application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"17","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}},{"jobId":"23","jobTitle":"Software Engg 3","jobDescription":"To develop andriod application","experience":{"experience":["Google","Apple","Mobile Iron"]},"project":{"project":{"projectName":"Movie App","technology":{"technology":["Kotlin","SQL Lite","Gradle"]}}}}]
+      <jobId>1</jobId>
+
+classpath:com/api/automation/getrequest/validateUsingFile.feature:29
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///C:/Users/abhis/Downloads/karateframework/karateframework/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
